@@ -1,0 +1,42 @@
+Assignment #1
+COSC 4351
+
+Due Date: Feb 16, 2018 23:59:59
+
+Description: 
+You work at an e-commerce company. Customers can browse through products and order it online. Company delivers products to customers at the address they provide on their profile or during the checkout. In order to make sure packages are delivered at correct address system needs to validate the addresses provided by the customers. Several mail service providers provide online APIs to validate the addresses like USPS for free of charge. 
+Your agile team has assigned you the module that will consume the service like USPS and return the validated address.
+
+Based on the above description answer following questions.
+
+1. Is the waterfall model a good choice for developing this system? Only Yes or No
+Yes
+
+2. Give four reasons to support your answer in 1.
+1. Requirements very well understood
+2. Small Project, easy to make a logical progression of steps
+3. Teams allowed to shift to work on other parts of the e-commerce company
+4. Time line and deadlines to guarantee validation by a certain date
+
+3. Is iterative development leading to a single release of the system a good choice for developing this system? Only Yes or No
+No
+
+4. Give four reasons to support your answer in 3.
+1. Not very suitable for small projects
+2. No known end date known for such an important validation
+3. This project has no need to be that complex
+4. Using iterative model would require uneccessary cost to such a simple project
+
+5. Is agile development with releases of small increments of software a good choice for developing this system? Only Yes or No
+No
+6. Give four reasons to support your answer in 5.
+1. Need technical precision, If the company wants to log the validated adresses to use with other systems, could run into trouble with the work from agile team.
+2. Need a highly coordinated team of individuals which isn't necessary for the project
+3. Must have interaction between customers, which could hurt more than help for validation of address
+4. hard to create incremental releases for this project
+7. What software development process would you recommend and why?
+I would recommend a waterfall model or a hybrid waterfall and agile model in order to best meet company standards and provide a service that the user appreciates. There needs to be documentation for use with databases and other change. If the company later decides to create a model like Pizza Hut which provides the user with Real Time feedback on their order, they will be able to integrate their services easier with better documentation, and it doesn't necessarily need to be the same team to implement it. On the other hand if the number of teams are small then they can lean towards agile models, which can make changes more independently in terms of management for their products.
+8. Provide stories that you will use to develop the above systems. (Research on how to create stories)
+As a user, I want to input my address at checkout for correct delivery. 
+As a admin, I want to use the USPS free api to validate customer addresses upon ordering. 
+

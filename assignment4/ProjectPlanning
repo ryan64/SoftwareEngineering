@@ -1,0 +1,73 @@
+Project Scope
+
+	 While we may not know exactly the number of visitors for the proposed site, we know that there will be less requests than number of visitors. Comparing average monthly statistics for other E-commerce sites, We can expect no more than 200 million visitors per month during peak times.  
+
+
+Technical
+
+	- The company/developer team should have the proper set of tools/equipment to develop, test, and maintain the Validation Service
+	- Website should be able to handle the request traffick. At worst, it should be able to store requests in the database while waiting for active requests to finish.
+	- Due to scope needs to be scalable to account for possible traffick
+
+Economic
+
+	- The company/developer should have funds secured in order to pay for the development process. 
+	- Company should have enough money to cover the cost of developing, hosting, and maintaining the Validation service 
+	- Funds would have to be allocated to account for scalability. Hosting costs would increase alongside the scale. 
+
+Operational
+
+	- If additional skills are required to develop and maintain the validation service and its codebase, those need to be accounted for and provided by the company.
+	- Database administrators and others may have increased responsibility for the project, but no need to hire others to maintain the service
+
+Resource Planning
+
+	(Does not include Personnel Resources of maintaining the validation service. For example a data base administrator. Company already likely has such and their responsibilities may increase slightly, but not considered here)
+
+	- Developers/Engineers x1
+	- Testers (QA) x1
+
+Hardware Resources:
+
+	(Assuming E-commerce does not already have the servers to handle requests)
+
+	- One PC and any necessary peripherals per developer that is capable of performing all relevant developmental tasks
+	- Cloud and/or server hosting space. (These can be off the premises)
+	- Server and data center backups
+
+Software Resources
+
+
+	- Pick out a relevant, modern, and viable stack (set of languages, frameworks, etc.) that suit the needs of the product
+
+	- Database (SQL or NoSQL, etc.)
+	- Database frameworks and tools for endpoint analysis
+	- Middleware frameworks (i.e. Spring)
+	- Containers 
+	- Virtualization
+	- Continuous Integration
+
+Estimated Cost and Effort ($6,000)
+
+	- Hours spent working on the validation service (Assuming 8 hour work days over 
+	  a month months)
+	- Developers/Engineers ($3,000)
+	- Testers ($3,000)
+
+Hardware Resources ($9,400 + $300/month or more)
+
+	- PC + peripherals for each development personnel x2 ($2,200 * 2 = $4,400)
+	- Cloud Services/Hosting ($300/month depending scaling)
+	- Server hardware ($5,000 for processing requests, down payment)
+
+Software Resources ($1,300)
+
+	- IDE Subscriptions x2 ($650 * 2 = $1,300)
+
+
+TOTAL COST (Initial): $16,700 + $300/month
+TOTAL EFFORT: Cumulatively, ~173 hours (Over one month, 5 day workweeks, 8 hours a day/person
+
+Project Schedule 
+
+	- ProjectSchedule.png

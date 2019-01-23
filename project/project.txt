@@ -1,0 +1,27 @@
+Project
+
+Due Date: April 27, 2018 23:59:59
+
+In this assignment you will develop the program as discussed below.
+
+Description: You work at an e-commerce company. Customers can browse through products and order it online. Company delivers products to customers at the address they provide on their profile or during the checkout. In order to make sure packages are delivered at correct address system needs to validate the addresses provided by the customers. Several mail service providers provide online APIs to validate the addresses like USPS for free of charge. 
+Your agile team has assigned you the module that will consume the service like USPS and return the validated address.
+
+Based on above requirements provide followings:
+1. UI to enter address.
+2. Backend process that will read the address that user enters through UI.
+3. Pass the address in the format USPS service requires.
+4. Read the response from USPS service and display to user if address is correct.
+5. In some cases, USPS will also send the correct address if any information is missing from the address.
+6. Show the user suggested correct address.
+
+Deliverables:
+
+1. Complete working code with sample output. (60)
+2. Demo with TA. Setup time with TA in advance. (40)
+
+NOTE: 
+- You can use any programming language you prefer.
+- You can impletment it either for desktop or mobileapp.
+
+

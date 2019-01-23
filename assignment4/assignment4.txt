@@ -1,0 +1,50 @@
+Assignment# 4
+
+Due Date: March 30, 2018 23:59:59
+
+Description: 
+You work at an e-commerce company. Customers can browse through products and order it online. Company delivers products to customers at the address they provide on their profile or during the checkout. In order to make sure packages are delivered at correct address system needs to validate the addresses provided by the customers. Several mail service providers provide online APIs to validate the addresses like USPS for free of charge. 
+Your agile team has assigned you the module that will consume the service like USPS and return the validated address.
+
+Based on above requirements provide followings:
+
+1. How will you measure quality of your software? (20)
+
+TDD will be a good way to go about measuring the quality of the codebase. As far as the
+user interface software goes, there can be a feature added on the website which will allow
+users to submit feedback based on their experience with the United States Postal Service API. 
+
+For physical feedback, tests would be conducted using test cases written specifically for filling
+in the box where the address would go, and seeing if the address has been validated. We would have 
+test cases for addresses that are valid and addresses that are not valid. 
+
+The test cases we write will be the primary way we ensure quality in the address validation functionality. 
+
+2. Provide project planning tasks document related to above requirements. Document must include: (40)
+	- project scope
+	- risk analysis
+	- Estimate cost and effort
+	- Project schedule (use the stories from assignment 1 to provide how many sprints you will need and what will be delivered in each sprint)
+
+3. Provide a plan for project maintenance. (20)
+
+Once the design and initial delivery is done, the project will be maintained based on user feedback and test cases. If the users say that the address validation worked fine or they were able to check out their items with no issues, then change will not be necessary. However, users will eventually want to see design changes happen within the e-commerce website, as features are constantly getting added, so testing with test cases will be a continuous thing to do. Bugs found by developers or users would take more priority than anything mentioned above. Based on the bug itself, the developers can determine if it is critical in order to see if it is necessary to fix. 
+
+4. Discuss how you can improve the process. (20)
+
+Improvements could be made in terms of time taken to plan and integrate the API. 
+The current timeline spans one month. However, this may seem a
+little cramped. If we had a bit more time, then the quality of the code written 
+to add the API service to our site would be better, this might cost more money however. 
+The shorter the timeline is, the more money we save. 
+
+Regarding the development process, hiring additional developers
+prior to the start of development would speed up the process and allow for more
+modularized task scheduling and implementation, but that is not necessary, considering 
+all we are doing is adding a API to a website. 
+
+These changes would present an increase in the total cost.
+That is something to keep in mind when considering improvements to whatever you are 
+developing.
+
+

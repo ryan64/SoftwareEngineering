@@ -1,0 +1,27 @@
+Assignment #3
+
+Due Date: March 16, 2018 23:59:59
+
+Description: 
+You work at an e-commerce company. Customers can browse through products and order it online. Company delivers products to customers at the address they provide on their profile or during the checkout. In order to make sure packages are delivered at correct address system needs to validate the addresses provided by the customers. Several mail service providers provide online APIs to validate the addresses like USPS for free of charge. 
+Your agile team has assigned you the module that will consume the service like USPS and return the validated address.
+
+Based on above requirements provide followings:
+
+1. Provide overall architecture of the solution that you propose.
+
+Solution found in Question1.png
+
+2. What design patterns are you going to use? What is the reason for using it?
+
+We are going to use the Chain-of-Responsibility pattern which will be useful under the assumption that the e-commerce company will need to process a large amount of orders (requests) at all times, and also the assumption that we have multiple server-processes capable of recieving orders. Chain-of-Responibility adheres to the Single responsibility principle, simplifiying the classes so that only one class handles the request. Since our proposed Class Diagram involves reusable/flexible object-oriented diagram focused around Orders, Chain-of-Responbility is a solution that fits our designs.
+
+3. What technologies are you going to use to implement the solution? Discuss in terms of front end and backend technologies.
+
+For the front-end, we will use HTML, CSS, and Javascript to design the look and feel of the website. If I wanted a more advanced stack, I would stick with using react or vue.js to build front end components. For the middleware, I would want to use Node.js with express.js to manage various dependecies. For the database I would want to use Oracle DB since it is easy to scale across multiple platforms and services. 
+
+4. What development methodology (ex: TDD, XP) are you planning to use and why? 
+
+We would want to use the agile development methodology. Agile will allow us to build the product more efficiently by maintaining code in such a way that it allows us to come back and make changes if necessary. This will be especially necessary if we need to change the public API that we are using to validate addresses.  
+
+If we need to troubleshoot/debug that will also be easier considering that following the agile method allows our project to be sprint based i.e multiple releases vs a scheduled single release. 

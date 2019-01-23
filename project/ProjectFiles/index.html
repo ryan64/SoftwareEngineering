@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+<title>Valid Address Form</title>
+
+<!-- Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="Valid Address Form Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Meta-Tags -->
+
+<!-- Custom-Style-Sheet -->
+<link rel="stylesheet" href="css/bootstrap.min.css"	type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css"			type="text/css" media="all">
+<!-- //Custom-Style-Sheet -->
+
+<!-- Fonts -->
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"		type="text/css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700"					type="text/css" media="all">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"	type="text/css" media="all">
+<!-- //Fonts -->
+
+</head>
+<!-- //Head -->
+	<!-- Body -->
+	<body>
+		<h1>VALID ADDRESS FORM</h1>
+		<div class="agileitscontainerwthree">
+			<form onsubmit="return Request();" class="my-form" id="test_form" action="#" method="post">
+				<fieldset>
+					<div class="section w3-agileits">
+						<fieldset>
+							<legend>Address</legend>
+							<div class="form-group">
+								<label class="control-label" for="street-address">Street Address</label>
+								<input class="form-control" id="street-address" name="pt_address" value="" type="text" maxlength="200">
+							</div>
+							<div class="form-group">
+								<label class="control-label" for="city">City</label>
+								<input class="form-control" id="city" name="pt_city" value="" type="text" maxlength="50">
+							</div>
+							<div class="row">
+								<div class="form-group col-md-4">
+									<label class="control-label" for="state">State</label>
+									<input class="form-control" id="state" name="pt_state" value="" type="text" maxlength="20" required />
+								</div>
+								<div class="form-group col-md-4">
+									<label class="control-label" for="zip">Zip/Postal Code</label>
+									<input class="form-control" id="zip" name="pt_zip" value="" type="text" maxlength="10" required />
+								</div>
+							</div>
+						</fieldset>
+					</div>
+				</fieldset>
+				<div class="form-group w3-agile">
+					<button type="submit" value="Submit" class="btn btn-lg agile btn-primary submit">Submit</button>
+					<br /> <br/>
+					<label id="Validation" ></label>
+				</div>
+			</form>
+		</div>
+
+
+
+		<!-- Necessary-JavaScript-Files-&-Links -->
+			<script src="js/usps-request.js"></script>
+			<script src="http://codeorigin.jquery.com/jquery-1.11.3.min.js"></script>
+			<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+			<script src="js/jq.progress-bar.js"></script>
+			<script>
+				$(document).ready(function() {
+					$('#test_form').showProgress();
+				});
+			</script>
+
+		<!-- //Necessary-JavaScript-Files-&-Links -->
+		<!-- //Necessary-JavaScript-Files-&-Links -->
+
+	</body>
+	<!-- //Body -->
+</html>
